@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['orderData'])) {
   <aside class="bg-white bg-opacity-90 backdrop-blur-sm w-16 flex flex-col items-center py-6 space-y-8 shadow-lg">
    <button aria-label="Home" class="text-[#4B2E0E] text-xl" title="Home" type="button" onclick="window.location='customerpage.php'"><i class="fas fa-home"></i></button>
    <button aria-label="Cart" class="text-[#4B2E0E] text-xl" title="Cart" type="button" onclick="window.location='customerpage.php'"><i class="fas fa-shopping-cart"></i></button>
-   <button aria-label="Order List" class="text-[#4B2E0E] text-xl" title="Order List" type="button" onclick="window.location='orderlist.php'"><i class="fas fa-list"></i></button>
+   <button aria-label="Transaction Records" class="text-[#4B2E0E] text-xl" title="Transaction Records" type="button" onclick="window.location='transactionrecords.php'"><i class="fas fa-list"></i></button>
    <button aria-label="Settings" class="text-[#4B2E0E] text-xl" title="Settings" type="button" onclick="window.location='setting.php'"><i class="fas fa-cog"></i></button>
    <button id="logout-btn" aria-label="Logout" name="logout" class="text-[#4B2E0E] text-xl" title="Logout" type="button"><i class="fas fa-sign-out-alt"></i></button>
   </aside>
